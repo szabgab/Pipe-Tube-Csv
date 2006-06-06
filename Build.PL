@@ -11,6 +11,7 @@ my $builder = Module::Build->new(
     requires            => {
         'Pipe'                => '0',
         'Test::More'          => '0.47',
+        'Text::CSV_XS'        => '0.23',
     },
 );
 

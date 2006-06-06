@@ -1,0 +1,10 @@
+Build.PL
+Makefile.PL
+Changes
+README
+MANIFEST			This list of files
+META.yml
+lib/Pipe/Tube/Csv.pm
+
+t/01-load.t
+t/02-csv.t
