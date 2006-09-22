@@ -9,7 +9,7 @@ my $builder = Module::Build->new(
     create_makefile_pl  => 'traditional',
     create_readme       => 1,
     requires            => {
-        'Pipe'                => '0',
+        'Pipe'                => '0.03',
         'Test::More'          => '0.47',
         'Text::CSV_XS'        => '0.23',
     },

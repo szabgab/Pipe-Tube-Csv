@@ -8,7 +8,7 @@ use Pipe;
 my @rows = <DATA>;
 chomp @rows;
 {
-  my @resp = Pipe->for(@rows)->csv;
+  my @resp = Pipe->for(@rows)->csv->run;
   is_deeply \@resp, [ 
                       ["one", "two", "three"], 
                       ["few", "many, more", "uncountable"],

@@ -40,9 +40,11 @@ Pipe::Tube::Csv - Csv processor tube in Pipe
 
 =head1 SYNPOSIS
 
-  my @resp = Pipe->for(@rows)->csv;
+  my @resp = Pipe->for(@rows)->csv->run;
 
-  my @resp = Pipe->cat("t/data/file1", "t/data/file2")->csv({ sep_char => "\t" });
+  my @resp = Pipe->cat("t/data/file1", "t/data/file2")
+            ->csv({ sep_char => "\t" })
+            ->run;
 
 =head1 DESCRIPTION
 

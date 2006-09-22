@@ -8,3 +8,6 @@ lib/Pipe/Tube/Csv.pm
 
 t/01-load.t
 t/02-csv.t
+t/90-pod.t
+t/91-pod-coverage.t
+
