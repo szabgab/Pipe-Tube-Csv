@@ -1,0 +1,13 @@
+MYMETA.json
+MYMETA.yml
+Makefile
+MANIFEST
+MANIFEST.bak
+Pipe-*
+blib/
+pipe.log
+pm_to_blib
+*.swp
+cover_db/
+Build
+_build/
