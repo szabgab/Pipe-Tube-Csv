@@ -1,5 +1,5 @@
 
-v0.02
+v0.02 2012.05.16
   Move to github
   replace Module::Build by ExtUtils::MakeMaker
   fixto work with Pipe 0.03 and later
