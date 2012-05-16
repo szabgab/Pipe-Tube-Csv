@@ -1,4 +1,9 @@
 
+v0.02
+  Move to github
+  replace Module::Build by ExtUtils::MakeMaker
+  fixto work with Pipe 0.03 and later
+
 v0.01 2006.04.24
 
   Initial release
