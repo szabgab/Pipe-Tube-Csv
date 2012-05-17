@@ -8,7 +8,7 @@ my %opts = (
     PREREQ_PM    => {
         'Pipe'                => '0.03',
         'Test::More'          => '0.47',
-        'Text::CSV_XS'        => '0.23',
+        'Text::CSV'           => '1.21',
     },
     META_MERGE        => {
        resources => {

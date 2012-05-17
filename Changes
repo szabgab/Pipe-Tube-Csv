@@ -1,4 +1,7 @@
 
+  Use Text::CSV instead of Text::CSV_XS
+  reuqire instead of use in test
+
 v0.02 2012.05.16
   Move to github
   replace Module::Build by ExtUtils::MakeMaker

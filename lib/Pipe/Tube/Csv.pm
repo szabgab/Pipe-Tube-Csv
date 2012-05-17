@@ -5,7 +5,7 @@ use warnings;
 our $VERSION = '0.02';
 
 use base 'Pipe::Tube';
-use Text::CSV_XS;
+use Text::CSV;
 use Data::Dumper;
 
 
@@ -16,7 +16,7 @@ sub init {
 
     $self->logger("Receiving Csv definition: " . Dumper $attr);
 
-    $self->{csv} = Text::CSV_XS->new($attr);
+    $self->{csv} = Text::CSV->new($attr);
 
     return $self;
 }
@@ -51,7 +51,7 @@ Pipe::Tube::Csv - Csv processor tube in Pipe
 =head1 DESCRIPTION
 
 The ->csv()  call can get a HASH reference parameter, the same parameter as
-L<Text::CSV_XS> would get. We pass it directly to that module.
+L<Text::CSV> would get. We pass it directly to that module.
 
 Split up lines of csv file and return an array reference for each line.
 
@@ -74,7 +74,7 @@ See http://www.perl.com/perl/misc/Artistic.html
 
 =head1 See Also
 
-L<Pipe> and L<Text::CSV_XS>
+L<Pipe> and L<Text::CSV>
 
 
 =cut
