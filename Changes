@@ -1,5 +1,7 @@
+v0.04 2012.05.21
+  Move author tests to xt/
 
-v003 2012.05.17
+v0.03 2012.05.17
 
   Use Text::CSV instead of Text::CSV_XS
   reuqire instead of use in test
