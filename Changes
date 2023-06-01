@@ -1,3 +1,8 @@
+v0.05 2023.06.01
+  GitHub Actions instead of Travis
+  Include list of build requirements
+  Link to issues
+
 v0.04 2012.05.21
   Move author tests to xt/
 

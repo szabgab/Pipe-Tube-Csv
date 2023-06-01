@@ -2,7 +2,7 @@ package Pipe::Tube::Csv;
 use strict;
 use warnings;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 use base 'Pipe::Tube';
 use Text::CSV;
